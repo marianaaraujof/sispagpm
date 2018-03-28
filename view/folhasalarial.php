@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<?php
+  require_once ('../session/startSession.php');
+?>
 <head>
     <meta charset="utf-8"/>
   	<title>SisPag</title>
@@ -72,6 +74,6 @@
 	</tr>
  </table>
 </div>
-  <a href="sispag-versao1/view/formulario.php"> Voltar </a>
+  <a href="formulario.php"> Voltar </a>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
 function urlPrincipal() 
 {
-  header('Location: http://localhost/sispag-paula/FormularioFuncionario.php');
+  header('Location: http://localhost/sispagpm/view/formulario.php');
 }
 
 function calculaAbono($_idade)
@@ -41,12 +41,12 @@ function verificarLogin ($_login, $_pass)
 	{
 		$_SESSION['logado']= true;
 		$_SESSION['user']= trim($_POST['_usuario']);
-		header ('Location: http://localhost/sispag-paula/view/FormularioFuncionario.php');
+		header ('Location: http://localhost/sispagpm/view/formulario.php');
 	}
 	else
 	{
         $_SESSION['logado']= false;
-        header ('Location: http://localhost/sispag-paula/view/LoginFormulario.php');
+        header ('Location: http://localhost/sispagpm/view/login.php');
 	}
 }
 ?>

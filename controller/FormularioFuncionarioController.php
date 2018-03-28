@@ -61,6 +61,6 @@ $_SESSION['_qntfilhos'] = $_POST['_qntfilhos'];*/
 $_SESSION['entradas']=array('_cpf'=>$_cpf, '_funcionario'=>$_funcionario, '_anonascimento'=>$_anoNascimento, '_salariobase'=>$_salarioBase, '_qntFilhos'=>$_qntFilhos, '_calculaAbono'=>$_abono, '_inss'=>$_inss, '_idade'=>$_idade, '_salarioFamilia'=>$_salarioFamilia, '_salarioBruto'=>$_salarioBruto, '_salarioLiquido'=>$_salarioLiquido);
 
 # Exibição dos dados
-require_once('../view/ReciboFormularioFuncionario.php');
+require_once('../view/folhasalarial.php');
 
 ?>
