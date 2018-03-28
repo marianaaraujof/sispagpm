@@ -27,7 +27,8 @@
 	</div>
 <div class="container-fluid" style="height:90px;">
   <div class="col-sm-12 bg-white">
-    <h1> Cupom salarial </h1>
+  	<br />
+    <h1 class="text-center"> Cupom salarial </h1>
   </div>
 </div>
 <div class="container"> 
