@@ -37,23 +37,23 @@ require_once ('../session/startSession.php');
         <tbody>
           <tr class="table-info">
             <td>CPF</td>
-            <td><input type="cpf" name="cpf" size="30" maxlength="11" placeholder="Somente Numeros"></td>
+            <td><input type="cpf" name="_cpf" size="30" maxlength="11" placeholder="Somente Numeros"></td>
           </tr>
           <tr class="table-info">
             <td>Funcionario</td>
-            <td><input type="text" name="nomefuncionario" size="30" placeholder="Nome Completo"></td>
+            <td><input type="text" name="_funcionario" size="30" placeholder="Nome Completo"></td>
           </tr>
           <tr class="table-info">
             <td>Ano de Nascimento</td>
-            <td><input type="number" name="nascimento" min="1918" max="2017"></td>
+            <td><input type="number" name="_anonascimento" min="1918" max="2017"></td>
           </tr>
           <tr class="table-info">
             <td>Salario base</td>
-            <td><input type="text" name="salario" size="30" placeholder="R$"></td>
+            <td><input type="text" name="_salariobase" size="30" placeholder="R$"></td>
           </tr>
           <tr class="table-info">
             <td>Quantidade de Filhos</td>
-            <td><input type="number" name="filhos" min="0" max="30" ></td>
+            <td><input type="number" name="_qntfilhos" min="0" max="30" ></td>
           </tr>
           <tr class="table-info">
             <td><input type="submit" class="btn btn-outline-dark" value="Calcular"></td>

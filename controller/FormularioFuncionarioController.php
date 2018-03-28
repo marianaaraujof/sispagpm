@@ -8,6 +8,8 @@
 
 # Recebendo dados do formulário
 #print_r($_POST);
+
+]
 #exit;
 require_once('../session/startSession.php');
 
@@ -58,9 +60,9 @@ $_SESSION['_anonascimento'] = $_POST['_anonascimento'];
 $_SESSION['_salariobase'] = $_POST['_salariobase'];
 $_SESSION['_qntfilhos'] = $_POST['_qntfilhos'];*/
 
-$_SESSION['entradas']=array('_cpf'=>$_cpf, '_funcionario'=>$_funcionario, '_anonascimento'=>$_anoNascimento, '_salariobase'=>$_salarioBase, '_qntFilhos'=>$_qntFilhos, '_calculaAbono'=>$_abono, '_inss'=>$_inss, '_idade'=>$_idade, '_salarioFamilia'=>$_salarioFamilia, '_salarioBruto'=>$_salarioBruto, '_salarioLiquido'=>$_salarioLiquido);
+$_SESSION['dados']=array('_cpf'=>$_cpf, '_funcionario'=>$_funcionario, '_anonascimento'=>$_anoNascimento, '_salariobase'=>$_salarioBase, '_qntFilhos'=>$_qntFilhos, '_calculaAbono'=>$_abono, '_inss'=>$_inss, '_idade'=>$_idade, '_salarioFamilia'=>$_salarioFamilia, '_salarioBruto'=>$_salarioBruto, '_salarioLiquido'=>$_salarioLiquido);
 
 # Exibição dos dados
-require_once('../view/folhasalarial.php');
+header('Location: ../view/folhasalarial.php');
 
 ?>

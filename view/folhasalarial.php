@@ -38,39 +38,39 @@
   <tbody>
   	<tr class="table-info">
 		<td>CPF: </td>
-		<td><?php echo $_SESSION['dados']['cpf']; ?> </td>
+		<td><?php echo $_SESSION['dados']['_cpf']; ?> </td>
 	</tr>
 	<tr class="table-info">
 		<td>Funcionário:</td>
-		<td> <?php echo $_SESSION['dados']['nomefuncionario']; ?> </td>
+		<td> <?php echo $_SESSION['dados']['_funcionario']; ?> </td>
 	</tr>
 	<tr class="table-info">
 		<td>Idade:</td> 
-		<td class="float-left"><?php echo $_SESSION['dados']['idade']; ?> anos </td>
+		<td class="float-left"><?php echo $_SESSION['dados']['_anonascimento']; ?> anos </td>
 	</tr>
 	<tr class="table-info">
 		<td>Salário base:</td>
-		<td> R$ <?php echo $_SESSION['dados']['salario'];?> </td>
+		<td> R$ <?php echo $_SESSION['dados']['_salariobase'];?> </td>
 	</tr>
 	<tr class="table-info">
 		<td>Salário família: </td>
-		<td> R$ <?php echo $_SESSION['dados']['salariofamilia']; ?></td>
+		<td> R$ <?php echo $_SESSION['dados']['_salarioFamilia']; ?></td>
 	</tr>
 	<tr class="table-info">
 		<td>Abono:</td>
-		<td> R$ <?php echo $_SESSION['dados']['abono']; ?></td>
+		<td> R$ <?php echo $_SESSION['dados']['_calculaAbono']; ?></td>
 	</tr>
 	<tr class="table-info">
 		<td>Salário bruto:</td> 
-		<td>R$ <?php echo $_SESSION['dados']['salariobruto']; ?></td>
+		<td>R$ <?php echo $_SESSION['dados']['_salarioBruto']; ?></td>
 	</tr>
 	<tr class="table-info">
 		<td>INSS: </td>
-		<td> R$ <?php echo $_SESSION['dados']['inss']; ?></td>
+		<td> R$ <?php echo $_SESSION['dados']['_inss']; ?></td>
 	</tr>
 	<tr class="table-info">
 		<td>Salário liquido: </td>
-		<td> R$ <?php echo $_SESSION['dados']['salarioliquido']; ?></td>
+		<td> R$ <?php echo $_SESSION['dados']['_salarioLiquido']; ?></td>
 	</tr>
  </table>
 </div>
