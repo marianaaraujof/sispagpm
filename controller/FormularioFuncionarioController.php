@@ -9,7 +9,7 @@
 # Recebendo dados do formulário
 #print_r($_POST);
 
-]
+
 #exit;
 require_once('../session/startSession.php');
 
