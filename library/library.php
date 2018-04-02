@@ -17,7 +17,8 @@ function calculaAbono($_idade)
 }
 function idade($_anoNascimento)
 {
-	return (date('Y')-$_anoNascimento);
+	$idade = date("Y") - $_anoNascimento;
+	return $idade;
 }
 function salarioFamilia($_qntFilhos)
 {

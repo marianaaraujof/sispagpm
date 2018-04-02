@@ -13,7 +13,8 @@ require_once ('../session/startSession.php');
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>           
-  <div class="container-fluid">    
+  <div class="container-fluid">  
+
     <div class="row">
       <div class="col-sm-4 bg-dark text-white">
       </div>
@@ -35,37 +36,56 @@ require_once ('../session/startSession.php');
       <h1></h1>
     </div>
   </div>
-  <div class="container"> 
-    <table class="table">
-      <form name="Folha de pagamento" method="POST" action="../controller/FormularioFuncionarioController.php">
-        <tbody>
-          <tr class="table-info">
-            <td>CPF</td>
-            <td><input type="cpf" name="_cpf" size="30" maxlength="11" placeholder="Somente Numeros"></td>
-          </tr>
-          <tr class="table-info">
-            <td>Funcionario</td>
-            <td><input type="text" name="_funcionario" size="30" placeholder="Nome Completo"></td>
-          </tr>
-          <tr class="table-info">
-            <td>Ano de Nascimento</td>
-            <td><input type="number" name="_anonascimento" min="1918" max="2017"></td>
-          </tr>
-          <tr class="table-info">
-            <td>Salario base</td>
-            <td><input type="text" name="_salariobase" size="30" placeholder="R$"></td>
-          </tr>
-          <tr class="table-info">
-            <td>Quantidade de Filhos</td>
-            <td><input type="number" name="_qntfilhos" min="0" max="30" ></td>
-          </tr>
-          <tr class="table-info">
-            <td><input type="submit" class="btn btn-outline-dark" value="Calcular"></td>
-            <td> </td>
-          </tr>
-        </tbody>
-      </form>
-    </table>
+  <div class="container-fluid bg-info"> 
+    <form name="Folha de pagamento" method="POST" action="../controller/FormularioFuncionarioController.php">
+      <div class="row bg-info">
+        <div class="col-sm"></div>
+      </div> 
+      <div class="row bg-info">
+        <div class="col-sm"><br /><br /><br /></div>
+      </div> 
+      <div class="row bg-info">
+        <div class="col-sm text-center"><label for="_cpf">CPF</label></div>
+        <div  class="col-sm"><input type="cpf" name="_cpf" size="30" maxlength="11" placeholder="Somente Numeros"></div>
+      </div>
+      <div class="row bg-info">
+        <div class="col-sm"><br /></div>
+      </div> 
+      <div class="row bg-info">
+        <div class="col-sm text-center"><label for="_funcionario">Funcionario</label></div>
+        <div class="col-sm"><input type="text" name="_funcionario" size="30" placeholder="Nome Completo"></div>
+      </div>
+      <div class="row bg-info">
+        <div class="col-sm"><br /></div>
+      </div> 
+      <div class="row bg-info">
+        <div class="col-sm text-center"><label for="_anonascimento"> Ano de Nascimento</label></div>
+        <div class="col-sm"><input type="number" name="_anonascimento" min="1918" max="2017"></div>
+      </div>
+      <div class="row bg-info">
+        <div class="col-sm"><br /></div>
+      </div> 
+      <div class="row bg-info">
+        <div class="col-sm text-center"><label for="_salariobase">Salario base</label></div>
+        <div class="col-sm"><input class="col-sm-4" type="text" name="_salariobase" size="30" placeholder="R$"></div>
+      </div>
+      <div class="row bg-info">
+        <div class="col-sm"><br /></div>
+      </div> 
+      <div class="row bg-info ">
+        <div class="col-sm text-center"><label for="_qntfilhos">Quantidade de Filhos</label></div>
+        <div class="col-sm"><input class="col-sm-4" type="number" name="_qntfilhos" min="0" max="30" ></div>
+      </div>
+      <div class="row bg-info">
+        <div class="col-sm"><br /></div>
+      </div> 
+      <div class="bg-info text-center">
+        <input class="col-sm-1 btn btn-dark" type="submit" value="Calcular">
+      </div>
+      <div class="row bg-info">
+        <div class="col-sm"><br /><br /><br /></div>
+      </div> 
+    </form>
   </div>
 
 </body>

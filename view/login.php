@@ -30,28 +30,35 @@
           <br />
           <h1 class="text-center"> Login </h1>
       </div>
-  </div>
-  <div class="container">
-   <table class="table">
-       <tbody>
-           <form action="../controller/LoginFormularioController.php" method= "POST">
-               <tr class="table-info">
-                <div class="container">
-                    <td><b>Usuario</b></td>
-                    <td><input type="text" placeholder="nome/usuario" name="_usuario" required></td>
-                </tr>    
-                <tr class="table-info">
-                    <div class="container">
-                        <td><b>Senha</b></td>
-                        <td><input type="password" name="_senha" required></td>
-                    </tr>  
-                    <tr class="table-info"> 
-                        <td colspan="2"><input type="submit" value="entrar"> </td>
-                    </tr>
-                    <tr class="table-info">
-                        <td colspan="2"><a href='http://www.google.com.br'>Esqueceu a senha?</a> </td>
-                    </tr>
-                </table>
+      <div class="container-fluid bg-info">
+       <form action="../controller/LoginFormularioController.php" method= "POST">
+        <div class="row bg-info">
+            <div class="col-sm"><br /><br /><br /></div>
+        </div> 
+        <div class="form-group col-sm bg-info text-center">
+            <div class="container">
+                <b>Usuario</b>
+                <input type="text" placeholder="nome/usuario" name="_usuario" required>
             </div>
-        </body>
-        </html>
+        </div>
+        <div class="form-group col-sm bg-info text-center">
+            <div class="container">
+                <b>Senha</b>
+                <input type="password" name="_senha" required>
+            </div>
+        </div> 
+        <div class="bg-info text-center">
+            <input type="submit" value="Entrar">
+        </div>
+        <div class="row bg-info">
+        <div class="col-sm"><br /></div>
+      </div> 
+        <div class="bg-info text-center">
+            <a class="btn btn-outline-dark" role="button" href='http://www.google.com.br'>Esqueceu a senha?</a>
+        </div>
+        <div class="row bg-info">
+            <div class="col-sm"><br /><br /><br /></div>
+        </div> 
+    </div>
+</body>
+</html>
