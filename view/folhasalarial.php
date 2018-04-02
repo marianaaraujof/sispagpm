@@ -24,7 +24,7 @@
  				<h3 class="text-center">Calculo salarial</h3> 
  			</div>
  			<div class="col-sm-4 bg-dark text-white">
- 				<a class="float-right" href="../session/destroySession.php"> Sair </a>
+ 				<a class="btn btn-outline-secondary btn-sm float-right" role="button" href="../session/destroySession.php"> Sair </a>
  			</div>
  			<div class="col-sm-4 bg-dark text-white">
  			</div>

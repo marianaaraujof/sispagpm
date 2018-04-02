@@ -24,7 +24,7 @@ require_once ('../session/startSession.php');
         <h3 class="text-center">Calculo salarial</h3> 
       </div>
       <div class="col-sm-4 bg-dark text-white">
-        <a class="float-right" href="../session/destroySession.php"> Sair </a>
+        <a class="btn btn-outline-secondary btn-sm float-right" role="button" href="../session/destroySession.php"> Sair </a>
       </div>
       <div class="col-sm-4 bg-dark text-white">
 
@@ -45,36 +45,31 @@ require_once ('../session/startSession.php');
         <div class="col-sm"><br /><br /><br /></div>
       </div> 
       <div class="row bg-info">
-        <div class="col-sm text-center"><label for="_cpf">CPF</label></div>
-        <div  class="col-sm"><input type="cpf" name="_cpf" size="30" maxlength="11" placeholder="Somente Numeros"></div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 float-left"><label for="_cpf">CPF</label><br />
+        <input type="cpf" name="_cpf" size="25" maxlength="11" placeholder="Somente Numeros"></div>
+        <div class="col-sm-3 float-left"><label for="_funcionario">Funcionario</label><br />
+        <input type="text" name="_funcionario" size="30" placeholder="Nome Completo"></div>
+        <div class="col-sm-3"></div>
       </div>
       <div class="row bg-info">
         <div class="col-sm"><br /></div>
       </div> 
       <div class="row bg-info">
-        <div class="col-sm text-center"><label for="_funcionario">Funcionario</label></div>
-        <div class="col-sm"><input type="text" name="_funcionario" size="30" placeholder="Nome Completo"></div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 float-left"><label for="_anonascimento"> Ano de Nascimento</label><br />
+        <input type="number" name="_anonascimento" min="1918" max="2017"></div>
+        <div class="col-sm-3 float-left"><label for="_salariobase">Salario base</label><br />
+        <input type="text" name="_salariobase" size="30" placeholder="R$"></div>
+        <div class="col-sm-3"></div>
       </div>
       <div class="row bg-info">
-        <div class="col-sm"><br /></div>
-      </div> 
-      <div class="row bg-info">
-        <div class="col-sm text-center"><label for="_anonascimento"> Ano de Nascimento</label></div>
-        <div class="col-sm"><input type="number" name="_anonascimento" min="1918" max="2017"></div>
-      </div>
-      <div class="row bg-info">
-        <div class="col-sm"><br /></div>
-      </div> 
-      <div class="row bg-info">
-        <div class="col-sm text-center"><label for="_salariobase">Salario base</label></div>
-        <div class="col-sm"><input class="col-sm-4" type="text" name="_salariobase" size="30" placeholder="R$"></div>
-      </div>
-      <div class="row bg-info">
-        <div class="col-sm"><br /></div>
+        <div class="col-sm-3"><br /></div>
       </div> 
       <div class="row bg-info ">
-        <div class="col-sm text-center"><label for="_qntfilhos">Quantidade de Filhos</label></div>
-        <div class="col-sm"><input class="col-sm-4" type="number" name="_qntfilhos" min="0" max="30" ></div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 float-left"><label for="_qntfilhos">Quantidade de Filhos</label><br />
+        <input type="number" name="_qntfilhos" min="0" max="30" ></div>
       </div>
       <div class="row bg-info">
         <div class="col-sm"><br /></div>
