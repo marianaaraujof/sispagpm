@@ -38,7 +38,7 @@ function inss ($_salarioBase)
 }
 function verificarLogin ($_login, $_pass)
 {
-	if($_login=='paula' && $_pass=='123456')
+	if($_login=='user' && $_pass=='123456')
 	{
 		$_SESSION['logado']= true;
 		$_SESSION['user']= trim($_POST['_usuario']);

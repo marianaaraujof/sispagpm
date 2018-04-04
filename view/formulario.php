@@ -26,9 +26,6 @@ require_once ('../session/startSession.php');
       <div class="col-sm-4 bg-dark text-white">
         <a class="btn btn-outline-secondary btn-sm float-right" role="button" href="../session/destroySession.php"> Sair </a>
       </div>
-      <div class="col-sm-4 bg-dark text-white">
-
-      </div>
     </div>
   </div>
   <div class="container-fluid" style="height:90px;">

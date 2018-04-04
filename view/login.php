@@ -35,18 +35,20 @@
         <div class="row bg-info">
             <div class="col-sm"><br /><br /><br /></div>
         </div> 
-        <div class="form-group col-sm bg-info text-center">
-            <div class="container">
-                <b>Usuario</b>
+        <div class="row bg-info text-center">
+            <div class="col-sm-4"> </div>
+                <div class="col-sm-4 text-center"><b>Usuário: </b><br />
                 <input type="text" placeholder="nome/usuario" name="_usuario" required>
             </div>
         </div>
-        <div class="form-group col-sm bg-info text-center">
-            <div class="container">
-                <b>Senha</b>
+        <div class="col-sm-4"></div> <br />
+        <div class="row bg-info text-center">
+            <div class="col-sm-4"></div>
+               <div class="col-sm-4 text-center"><b>Senha: </b><br />
                 <input type="password" name="_senha" required>
             </div>
         </div> 
+        <div class="col-sm-4"></div> <br />
         <div class="bg-info text-center">
             <input type="submit" value="Entrar">
         </div>
