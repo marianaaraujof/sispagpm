@@ -14,6 +14,7 @@
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
  </head>
  <body>
+ 	
  	<div class="container-fluid">    
  		<div class="row">
  			<div class="col-sm-4 bg-dark text-white">
@@ -30,12 +31,14 @@
  			</div>
  		</div>
  	</div>
+ 	
  	<div class="container-fluid" style="height:90px;">
  		<div class="col-sm-12 bg-white">
  			<br />
  			<h1 class="text-center"> Cupom salarial </h1>
  		</div>
  	</div>
+ 	
  	<div class="container-fluid bg-info"> 
  		<div class="row bg-info">
  			<div class="col-sm"><br /><br /><br /></div>
@@ -45,70 +48,87 @@
  			<div class="col-sm-2 text-center">CPF: </div>
  			<div class="col-sm-6 float-left"><?php echo $_SESSION['dados']['_cpf']; ?> </div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Funcionário:</div>
  			<div class="col-sm-6 float-left"> <?php echo $_SESSION['dados']['_funcionario']; ?> </div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Idade:</div>
  			<div class="col-sm-6 float-left"><?php echo $_SESSION['dados']['_idade']; ?> anos </div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário base:</div>
  			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_salariobase'];?> </div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário família: </div>
  			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_salarioFamilia']; ?></div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Abono:</div>
  			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_calculaAbono'];  ?></div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário bruto:</div>
  			<div class="col-sm-6 float-left">R$ <?php echo $_SESSION['dados']['_salarioBruto']; ?></div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">INSS: </div>
  			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_inss']; ?></div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário liquido: </div>
  			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_salarioLiquido'];?></div>
  		</div>
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /><br /><br /></div>
  		</div>
