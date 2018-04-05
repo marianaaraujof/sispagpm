@@ -132,7 +132,9 @@
  		<div class="row bg-info">
  			<div class="col-sm"><br /><br /><br /></div>
  		</div>
+ 		
  		<a class="btn btn-dark" role="button" href="formulario.php"> Voltar </a> 
+ 		
  		<div class="row bg-info">
  			<div class="col-sm"><br /></div>
  		</div> 
