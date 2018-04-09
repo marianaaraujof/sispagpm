@@ -56,7 +56,7 @@
         <div class="col-sm-4"></div> <br />
         
         <div class="bg-info text-center">
-            <input type="submit" value="Entrar">
+            <input class="col-sm-1 btn btn-dark" type="submit" value="Entrar">
         </div>
         
         <div class="row bg-info">
